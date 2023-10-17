@@ -1,0 +1,332 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:4e6a35e6-b6ec-4a10-9fc3-10a808e4d4f6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-10-16T15:12:15.758Z",
+    "tools": [
+      {
+        "vendor": "Securin Inc.",
+        "name": "AppSec",
+        "version": "0.1.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Securin Team",
+        "email": "aspm@securin.io"
+      }
+    ]
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "jquery-validation-plugin",
+      "version": "1.17.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/jquery-validation-plugin@1.17.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery-validation-plugin@1.17.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\Proiect.NET\\Backend\\SmartCity.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "jquery",
+      "version": "3.3.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/jquery@3.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery@3.3.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\Proiect.NET\\Backend\\SmartCity.WebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "bootstrap",
+      "version": "4.3.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/bootstrap@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/bootstrap@4.3.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\Proiect.NET\\Backend\\SmartCity.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "16.2.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.NET.Test.Sdk@16.2.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NET.Test.Sdk@16.2.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "MSTest.TestAdapter",
+      "version": "1.4.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/MSTest.TestAdapter@1.4.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/MSTest.TestAdapter@1.4.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "MSTest.TestFramework",
+      "version": "1.4.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/MSTest.TestFramework@1.4.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/MSTest.TestFramework@1.4.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "coverlet.collector",
+      "version": "1.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/coverlet.collector@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/coverlet.collector@1.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "AutoMapper",
+      "version": "9.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/AutoMapper@9.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/AutoMapper@9.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+      "version": "7.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/AutoMapper.Extensions.Microsoft.DependencyInjection@7.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/AutoMapper.Extensions.Microsoft.DependencyInjection@7.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "FluentValidation.AspNetCore",
+      "version": "8.5.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/FluentValidation.AspNetCore@8.5.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/FluentValidation.AspNetCore@8.5.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.AspNetCore.Mvc.Versioning",
+      "version": "4.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.Mvc.Versioning@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.Mvc.Versioning@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+      "version": "2.9.8",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.FxCopAnalyzers@2.9.8",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CodeAnalysis.FxCopAnalyzers@2.9.8"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.EntityFrameworkCore.SqlServer",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@3.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.EntityFrameworkCore.Tools",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Tools@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Tools@3.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.Extensions.Logging.Debug",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Debug@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Debug@3.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.OpenApi",
+      "version": "1.1.4",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.OpenApi@1.1.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.OpenApi@1.1.4"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+      "version": "3.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.VisualStudio.Web.CodeGeneration.Design@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.VisualStudio.Web.CodeGeneration.Design@3.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "MongoDB.Bson",
+      "version": "2.9.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/MongoDB.Bson@2.9.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/MongoDB.Bson@2.9.3"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "MongoDB.Driver",
+      "version": "2.9.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/MongoDB.Driver@2.9.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/MongoDB.Driver@2.9.3"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Swashbuckle.AspNetCore",
+      "version": "5.0.0-rc4",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore@5.0.0-rc4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore@5.0.0-rc4"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "SkiaSharp",
+      "version": "2.88.4",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/SkiaSharp@2.88.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/SkiaSharp@2.88.4"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Vanguard",
+      "version": "5.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Vanguard@5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Vanguard@5.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@3.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "AutoMapper",
+      "version": "9.0 .0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/AutoMapper@9.0 .0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/AutoMapper@9.0 .0"
+    }
+  ],
+  "services": [],
+  "dependencies": []
+}

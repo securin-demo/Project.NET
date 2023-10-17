@@ -1,0 +1,992 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:f14f16a9-8649-41cc-ac12-e89d28e49058",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-10-17T05:14:49.250Z",
+    "tools": [
+      {
+        "vendor": "Securin Inc.",
+        "name": "AppSec",
+        "version": "0.1.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Securin Team",
+        "email": "aspm@securin.io"
+      }
+    ]
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "jquery-validation-plugin",
+      "version": "1.17.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/jquery-validation-plugin@1.17.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery-validation-plugin@1.17.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\Proiect.NET\\Backend\\SmartCity.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "jquery",
+      "version": "3.3.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/jquery@3.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery@3.3.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\Proiect.NET\\Backend\\SmartCity.WebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "bootstrap",
+      "version": "4.3.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:npm/bootstrap@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/bootstrap@4.3.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\Proiect.NET\\Backend\\SmartCity.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "1.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d8b8a0382f5619bcf0c5558032dc2dc5781ecfdadd673530a1fece7da5d3f2417b595e6a4b30195e7b4551828ea4e2e0a43e725450fa7630dae5e6ae97220517"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.NETCore.Targets",
+      "version": "1.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b42afd8e8b5b2bbd05cd895f2c1597e27871233f41504cc3f893cdcac986e041746ab5db5439a93ed9ba0805f7823dcf872c7a938ab8472b1d9fbe6983acce40"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.NETCore.Targets@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Targets@1.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "Microsoft.Win32.Primitives",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6251db5c61757b4a63b1935395886a799ac73cb3ffe0e5bab040e29451ab6a8e085cb97b6449886016f2626ed530dea90b0c62cb818f12f0cc2ed2f341bfedcb"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Win32.Primitives@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Win32.Primitives@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "NETStandard.Library",
+      "version": "1.6.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "984013bc35bd6257c7d32585e10f2472ea075b3c881c87ef24cd797fd26af6526a70a7e8842c520e4d114034aec5ff03bdfe67e4c2db64a8f1d5c8b1cf6d11e1"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/NETStandard.Library@1.6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/NETStandard.Library@1.6.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "NuGet.Build.Tasks.Pack",
+      "version": "4.0.0-zlocal-50532",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5cff5adc076681b4606aa57594e3c2523ec283d5328b01a61e41477181fa46f86b867f7fd82087301dc6d44e6d290f5ed0ccd21ffb207b10608692bad5de253d"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/NuGet.Build.Tasks.Pack@4.0.0-zlocal-50532",
+      "type": "library",
+      "bom-ref": "pkg:nuget/NuGet.Build.Tasks.Pack@4.0.0-zlocal-50532"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.AppContext",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3d0d5c8771255c37168d4acd8b64c396522b6136fda799fb1ec2a24d60d3c576b669793cbacb57e50ba373748dd95405bf3373503943b03c74a9dce9f65d77fc"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.AppContext@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.AppContext@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Buffers",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "63f16769c3786da5f3b98a60cbf5a312be468e7a71ef2deccf7949aa695850f5a45a888db4579a815cf9a03446a54ef53e7db0476f1da51d2591401c1aeca5be"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Buffers@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Buffers@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Collections",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a4787581fb56e3e6d2dd3f89cf3b94339bccbb4dcc602272eb97a24c1649dd4f60a95d0eb4f2f6c17421fb7d3264799c47d57e7ca7d66f0875d8c7e8608bbe37"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Collections@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Collections@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Collections.Concurrent",
+      "version": "4.0.12",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5c4b130910c4611c831245acdb2c28c98a434efa88d0f060a3f7490d92132ccf4ed397959d61ac347ccf1b55aa2f3617983d8fd134cb0a147abfd1e958803de3"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Collections.Concurrent@4.0.12",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Collections.Concurrent@4.0.12"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Console",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b4b90a97fde1caf5da80fd9a840bff3ecfab68c3f06a8bef01b1087065ac0e887aa0cc7a22a3f0b804264521ac42b7df09b501879254c1380d81296ecc6ea592"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Console@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Console@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Diagnostics.Debug",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c90cd8531f2c79302b654da9ddb0cb82bc9544c8b4e2ba51017ab3afc40b6d963105eee67d516913272ac7494c2df59439709278be4aa17146ecd3488f20ec9a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Diagnostics.Debug@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.Debug@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Diagnostics.DiagnosticSource",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "51347e877ebd596c264f65ec5863f1e98f753378e41bbf00e67d417c706589b9c830a0551d1e58370b77ce857dfc1da6656e8b2d2c65d7267950b8d10810e679"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Diagnostics.DiagnosticSource@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.DiagnosticSource@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Diagnostics.Tools",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "be07cca0e8a887d0776a80bd6db0dffbd5fab124ab4a7dc1d92bb197590e852376950dbae604e3af8dbcfbeaab576e5707e5e91f5ae9d39c45ff43ae83b486ae"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Diagnostics.Tools@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.Tools@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Diagnostics.Tracing",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e475f69d6270a4a639a75973f057a600c293cb9dec2a7e623c4ced09195d32a78d8cc9e03550de95033d9c8273b5edd1b8360266b8aa4279cda73f20117ab08b"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Diagnostics.Tracing@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.Tracing@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Globalization",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e6f85e65f56c1713ce042274abfb88952d8b9359c00444d0c5738c8e35d7e7bd07cffeb204b421889996637344659775b3633f933c9942d04b621eb8d44a98a8"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Globalization@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Globalization@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Globalization.Calendars",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "57248bd8ba8fcc6161c3a7458d98e53e09ca8992d45363dca884edc084168c515141fb4c57d77d4fc897cf7ca5bf511134b6ff3c46c7ecf83e0288cc127630f5"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Globalization.Calendars@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Globalization.Calendars@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.IO",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "548f32c59f11cf967d1df163b2093deca9e859490c7b4f767bb840ea2bb1bbf55b1f396fef22005c5cd995edd95bde984c8f8509c324ff9544f179ed7d9b3309"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.IO@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.IO.Compression",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2a4a67c059d5cd3cc13495950867656b4c891b6a7ad81e48b9e65d782f92eefd39fc966811b45a13836e67c23e4aa0551150807ba1f6dfd19b5d06544c8d335a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.IO.Compression@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.Compression@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.IO.Compression.ZipFile",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9a52fbfa85f45d7472ab2ead33fb41c01d3452bd5e47e997fd5e62d810b9b20cd55ad24987ef5809909caaf597ff1f5d069c7efe655aab97de3707c6f8b28d4b"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.IO.Compression.ZipFile@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.Compression.ZipFile@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.IO.FileSystem",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0d8cd1ab9c532f5cecaf7a53e50a1eea56e484a0d91a8870ac11d37dadb2bb320c046ac533f8ec4fa5333c8a19af0ecf563e02ea72e3a33a10ef617084309f7c"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.IO.FileSystem@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.FileSystem@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.IO.FileSystem.Primitives",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c2323fb44b5538bdde7ce346299c57962a6555a4bc9dc2f2cf01a36e14535dcce05295c3e63818f10f56a43c55286f303d004fbf03234f63a06de464ffc19e24"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.IO.FileSystem.Primitives@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.FileSystem.Primitives@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Linq",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ba2606ce194b22c290db333577291ca2271cf395aa5b3378e11fb35b35bd3db5cf9e9e6917bb6d48a827c55617713ce5691d69bde331936aeaf66036e1c0e3be"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Linq@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Linq@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Linq.Expressions",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "139b4b04d6f0609d8417abf93b882d7805900780120c8cc187177f307fb66dd6c4f357f106ab7e83e47a41dd26bf2f50a3be29c2370c8d403e368c050ba69cc8"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Linq.Expressions@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Linq.Expressions@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Net.Http",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "051d9a323a249bd07335ad62712c410ec8a6a9ce3d7e387926e5fd9b1ba194088ae8e0a88c60878b9a10f9d24920767859884b7f979efd93b97777847cec718a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Net.Http@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Net.Http@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Net.Primitives",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f48fcf9af57083e7bf152972bf3e601202b4eb5081146af7a842b720b67c5cf48a7c0a5b500e578542d8372354593f41b64060a031baefb286127fded863e319"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Net.Primitives@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Net.Primitives@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Net.Sockets",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "22c8c7750f962a6cc6655f365f384145dadaf9c2f80002a692d602ad34d4e4055f53ead4c7578add290752773783570a4a0dd5d376ef9adce7cea3eb603c1787"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Net.Sockets@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Net.Sockets@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.ObjectModel",
+      "version": "4.0.12",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9aeb935d0f297559d85db129ee4248c50124b3f7fd467a1fc2be270831d974a00ca1e0bd4860cd306e34910730a6f687c1c92557cda94092654c17129221d928"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.ObjectModel@4.0.12",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.ObjectModel@4.0.12"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Reflection",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bb38ff77420846b02ba4095bd68a38e6d9ec3e57612b6b1b40e969e807df0b250f4a61c1950915eca48a346aa8714f9429aac17fb779b00073876e48908f33f6"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Reflection@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Reflection.Extensions",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "407624971678316dc8f279a65d4f7e85c9d96b0764e88e1c48a5c6da91bc1e52192b4b5f94287096b08e0e4f7b68d077c0b1e97878a50a40fc9fc91bafa15472"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Reflection.Extensions@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Extensions@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Reflection.Primitives",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "becffca5ed6322f50f924677a33ea3156a00edef53cef21ddff588552051db4ec03db7c9b6265fe510a3be68b372d239c27686ddb79841d4b9d1e4c462f87842"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Reflection.Primitives@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Primitives@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Resources.ResourceManager",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "85026b78c085c347b1b40631cd67354373c37899dd45114b49d5922cdfc0eb2520a4cb84c8b5f3be060cd073ef5df0b76a326be141573e3184cc831e3e336b2d"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Resources.ResourceManager@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Resources.ResourceManager@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Runtime",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f6973ad84d3f317844db8d03e51d01a1ebe64e02fbf8939ac19c4252ab2ae795f240cb1a360053f29630da2180311015fa6c815af4d33d29f3e555747cd3c880"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Runtime.Extensions",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "187da2beb7a375eb711bf5aa4aaaa6505a305ae625de7665839db7a3c62504b41d2a87f4496e1104d14e5b860d470807fdaaab6a0a112923b36e5727186f79bf"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.Extensions@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.Extensions@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Runtime.Handles",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c9166618a5378d67b739f0e323adea4a147b4c79b2f2fc9777118fb80b21697155c60a747b4f0148e10b48e535a2edd45447e951db0b4dd1e188715d8702d1f9"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.Handles@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.Handles@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Runtime.InteropServices",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e17aff38a8b0e28bbbc66d584c7ae152189605a91fabe27ded4719eaeea422db6e1bdfb5abf65f5d2e4e63c2c1376aa7365f14775ee1ff1579c0e328dc127b2d"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.InteropServices@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.InteropServices@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Runtime.InteropServices.RuntimeInformation",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "15d4ec975c5bc82e08ba067755aa33742f1b8d9d99bc8a5bd65ce1e177b104c0d4fcf56ef0cd879211d9d34ca33db4309afbc75c14c05338239d3d9fe23ecf57"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.InteropServices.RuntimeInformation@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.InteropServices.RuntimeInformation@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Runtime.Numerics",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b3fd15484b7992a7c5a5fb244fee7834db4d6bd64b64b2a15d059b38b9393da69fc986fcb7aa4401accf48e8e1cdd2db73019473cc71e70e6bb00164ad34a9cc"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.Numerics@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.Numerics@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Security.Cryptography.Algorithms",
+      "version": "4.2.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fcb851faef6fed3cf688dd6b0b15fe2787146b5e53d7f7039f74749abb29e016695f0d9891f1282dd8c78561cc9a1f1def61b7eeac837b3bd17ad4943b2068a8"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Algorithms@4.2.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Algorithms@4.2.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Security.Cryptography.Encoding",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b1d1c7658327a49ac992e68ad6f975449d2e6ba7b80d1a97a8ac76606a425259402218fd8f1b3619a2f74ef9b034adc8b82f3a9e2b4639915c62d9215a0194e8"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Encoding@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Encoding@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Security.Cryptography.Primitives",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4d7e3e673d5caa294d54632bedbcad8ac847be7968720d4587fd28ac336f452f045fe42fadd7cc849c7d53cbf112ac6f6c7dde1229d7eec5da677c88a30393a4"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Primitives@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Primitives@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Security.Cryptography.X509Certificates",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9bc82a652dd7e82e397c23a9da7c94eef8da3dc68835c881f17cf53e4ba5589a385435ac06626e2d4f01e9761534a355ef6c1eb1a25127a2893e44d3836d0303"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.X509Certificates@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.X509Certificates@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Text.Encoding",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5dc1c2a07db88e998a0f54a06f1631167d9bb086d4860028e4db1d9f657f00a139532faaa6f0c00516a7009db3b55581ebdde9b387b23d0a244a2600a8f75969"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Text.Encoding@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Text.Encoding.Extensions",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d70ebb4bf182743bbf335d2ec5a4800e36d46968da9e01e9c0be25afaa0c627ac2777dede2612f2fa4c7784526cde46a8244d31ce3b3605d5b692d800c5906ff"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Text.Encoding.Extensions@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding.Extensions@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Text.RegularExpressions",
+      "version": "4.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a12bf62ed82ace8a93f129ff001660c8c9791e4c5b243e620e37f309967e36a4e7bc11323eb8a5c10119bb3b67958d2b9f05c7400f83f30da18e1ce58f0bbb3e"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Text.RegularExpressions@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.RegularExpressions@4.1.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Threading",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "174d9aa4c30c3c6ca7014c9db4f216190ad157bb08e7e9710a87c60afb4946fccb80ddb6536e9c3e746e60bc91166cf434f909cb069e7cd9d4671dc8fa0f7f23"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Threading@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Threading.Tasks",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "944653c7594a7908a661b49330bb51204d19dbd2da5381f4a14b0b38ea793a375195f62b2f3e71a8c498edb29e2af0820fa63737b83368fbab1cb8b365b87f8a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Threading.Tasks@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Tasks@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Threading.Tasks.Extensions",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "73e0611499dd462f2a64e5f2bd439f284859b0f946fd90b8610c691d6eb5dec1858b707b15229b190f74a6f51d8ddfa8c1774638dacb954e60450e7bf2ba103c"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Threading.Tasks.Extensions@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Tasks.Extensions@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Threading.Timer",
+      "version": "4.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7df54294c21c36dcdc8aed672220d8a87a975b68a90b34b7648b092a50c0d3307e27fe4a54ffc49f661faa2bfb12a90403fe38649903badc085fd4e9eabd430e"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Threading.Timer@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Timer@4.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Xml.ReaderWriter",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e12dd7782b57af9e1562085df2386ce3302078f656b1089ddf9affcd712912aa94ec786d60a4381480da45fe676f32b37d71a5bbb9966d5fbc8e06fd47ec14ab"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Xml.ReaderWriter@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Xml.ReaderWriter@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "System.Xml.XDocument",
+      "version": "4.0.11",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "34f1628a0b2a836f6a6e3ac08b3e684b1c69cb2b1a94a51f11a9aeb75a42406ef2eab39d31e98b64e8cd7e65dc7be436ec8d8af725079ceb53a5ac5f058cdd34"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:nuget/System.Xml.XDocument@4.0.11",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Xml.XDocument@4.0.11"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "ClassLibrary2",
+      "version": "1.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/ClassLibrary2@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/ClassLibrary2@1.0.0"
+    }
+  ],
+  "services": [],
+  "dependencies": []
+}
